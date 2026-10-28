@@ -14,9 +14,9 @@ package ejemplo01;
 public class Ejemplo05 {
     public static void main(String[] args) {
         // Secuencia de escape \n y \t
-        String nombreEstudiante = "René Rolando";
-        String apellidoEstudiante = "Elizalde Solano";
-        int nacimiento = 1983;
+        String nombreEstudiante = "Bryan Alexander";
+        String apellidoEstudiante = "Elizalde Avalo";
+        int nacimiento = 2005;
         
         /*System.out.println(nombreEstudiante+"\n"+apellidoEstudiante+ "\n"+ 
                 nacimiento);
