@@ -34,14 +34,18 @@ public class Ejemplo2 {
         nombreAsignatura2 = entrada.nextLine();
         System.out.println("Ingrese nota de asignatura 2");
         notaAsignatura2 = entrada.nextDouble();
+        double promedio = (notaAsignatura1 + notaAsignatura2)/2;
         
         System.out.printf("Asignatura 1: %s\nNota 1:%.2f\nAsignatura 2:%s\n"
-                + "Nota 2: %.2f\n",
+                + "Nota 2: %.2f\nPromedio: %2f\n",
                 nombreAsignatura1,
                 notaAsignatura1,
                 nombreAsignatura2,
-                notaAsignatura2);
-   
+                notaAsignatura2,
+                promedio);
+        
+        // Es un método de la clase Scanner que sirve para leer una línea completa de texto que se escribe por teclado, incluidos los espacios
+        
     }
     
 }
